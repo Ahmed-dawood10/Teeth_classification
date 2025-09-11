@@ -25,7 +25,7 @@ st.markdown(
 )
 
 # ------------------- تحميل الموديل -------------------
-model = load_model('model.ResNet50.keras')
+model = load_model('https://drive.google.com/file/d/1nT2zuvx6jvkcmujiFQ7-ZMrsB_QnCU2w/view?usp=drive_link')
 
 # أسماء الكلاسات
 data_cat = ['CaS', 'CoS', 'Gum', 'MC', 'OC', 'OLP', 'OT']
