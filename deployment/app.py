@@ -4,6 +4,8 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.utils import img_to_array
 import numpy as np
 from PIL import Image
+import gdown
+import os
 
 # ------------------- إعدادات الصفحة -------------------
 st.set_page_config(
@@ -25,7 +27,19 @@ st.markdown(
 )
 
 # ------------------- تحميل الموديل -------------------
-model = load_model('https://drive.google.com/file/d/1nT2zuvx6jvkcmujiFQ7-ZMrsB_QnCU2w/view?usp=drive_link')
+
+# Local path for the model on the server
+model_file = "model.ResNet50.keras"
+
+# If the model file does not exist locally, download it from Google Drive
+if not os.path.exists(model_file):
+    # Direct download link from Google Drive
+    url = "https://drive.google.com/file/d/1Gvs0ZuMX1UQi6SPaNhekh_C7jJ505r9N/view?usp=drive_link"
+    gdown.download(url, model_file, quiet=False)
+
+# Load the Keras model
+model = load_model(model_file)
+
 
 # أسماء الكلاسات
 data_cat = ['CaS', 'CoS', 'Gum', 'MC', 'OC', 'OLP', 'OT']
