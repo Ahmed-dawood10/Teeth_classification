@@ -33,12 +33,13 @@ model_file = "model.ResNet50.keras"
 
 # If the model file does not exist locally, download it from Google Drive
 if not os.path.exists(model_file):
-    # Direct download link from Google Drive
-    url = "https://drive.google.com/file/d/1Gvs0ZuMX1UQi6SPaNhekh_C7jJ505r9N/view?usp=drive_link"
+    # Direct download link from Google Drive (use FILE_ID)
+    url = "https://drive.google.com/uc?id=1Gvs0ZuMX1UQi6SPaNhekh_C7jJ505r9N"
     gdown.download(url, model_file, quiet=False)
 
 # Load the Keras model
 model = load_model(model_file)
+
 
 
 # أسماء الكلاسات
