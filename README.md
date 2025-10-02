@@ -57,19 +57,19 @@ We experimented with multiple pretrained architectures and a CNN model from scra
 
 2. Create virtual environment (optional but recommended)
 
-python -m venv venv
-
-source venv/bin/activate     # On Linux/Mac
-
-venv\Scripts\activate        # On Windows
+        python -m venv venv
+        
+        source venv/bin/activate     # On Linux/Mac
+        
+        venv\Scripts\activate        # On Windows
 
 3. Install dependencies
 
-pip install -r requirements.txt
+        pip install -r requirements.txt
 
 4.Run the app
 
-streamlit run app.py
+        streamlit run app.py
 
 
 ## 🏆 Model Deployment
