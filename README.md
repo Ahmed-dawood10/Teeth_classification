@@ -80,11 +80,12 @@ You can also access the weights of the other trained models below:
 
 | Model            | Weights Link                                                                 |
 |------------------|-------------------------------------------------------------------------------|
-| 🧩 ResNet50 (Best, used in deployment) | [Download]([https://drive.google.com/uc?id=YOUR_RESNET_FILE_ID](https://drive.google.com/file/d/1Gvs0ZuMX1UQi6SPaNhekh_C7jJ505r9N/view?usp=drive_link))     |
-| 🔬 DenseNet121   | [Download]([https://drive.google.com/uc?id=YOUR_DENSENET_FILE_ID](https://drive.google.com/file/d/11gvBNuEDsG-TeW0suH0pz-0NH88xB1Y2/view?usp=drive_link))   |
-| 📱 MobileNet     | [Download]([https://drive.google.com/uc?id=YOUR_MOBILENET_FILE_ID](https://drive.google.com/file/d/1wFf8zw8qI1ocRv02lm9PvLzCraypjKI6/view?usp=drive_link))   |
-| 🧠 Vision Transformer (ViT) | [Download]([https://drive.google.com/uc?id=YOUR_VIT_FILE_ID](https://drive.google.com/file/d/1nT2zuvx6jvkcmujiFQ7-ZMrsB_QnCU2w/view?usp=drive_link))   |
-| 🏗️ CNN from scratch | [Download]([https://drive.google.com/uc?id=YOUR_SCRATCH_FILE_ID](https://drive.google.com/file/d/1drxz-YdfFybW_01ZyWFRubysislr3qKa/view?usp=drive_link)) |
+| 🧩 ResNet50 (Best, used in deployment) | [Download](https://drive.google.com/uc?id=1Gvs0ZuMX1UQi6SPaNhekh_C7jJ505r9N) |
+| 🔬 DenseNet121   | [Download](https://drive.google.com/uc?id=11gvBNuEDsG-TeW0suH0pz-0NH88xB1Y2) |
+| 📱 MobileNet     | [Download](https://drive.google.com/uc?id=1wFf8zw8qI1ocRv02lm9PvLzCraypjKI6) |
+| 🧠 Vision Transformer (ViT) | [Download](https://drive.google.com/uc?id=1nT2zuvx6jvkcmujiFQ7-ZMrsB_QnCU2w) |
+| 🏗️ CNN from scratch | [Download](https://drive.google.com/uc?id=1drxz-YdfFybW_01ZyWFRubysislr3qKa) |
+
 
 ---
 
