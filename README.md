@@ -58,7 +58,9 @@ We experimented with multiple pretrained architectures and a CNN model from scra
 2. Create virtual environment (optional but recommended)
 
 python -m venv venv
+
 source venv/bin/activate     # On Linux/Mac
+
 venv\Scripts\activate        # On Windows
 
 3. Install dependencies
