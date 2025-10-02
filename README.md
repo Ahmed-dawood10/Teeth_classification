@@ -78,15 +78,25 @@ You can also access the weights of the other trained models below:
 
 | Model            | Weights Link                                                                 |
 |------------------|-------------------------------------------------------------------------------|
-| 🧩 ResNet50 (Best, used in deployment) | [Download](https://drive.google.com/uc?id=YOUR_RESNET_FILE_ID)     |
-| 🔬 DenseNet121   | [Download](https://drive.google.com/uc?id=YOUR_DENSENET_FILE_ID)   |
-| 📱 MobileNet     | [Download](https://drive.google.com/uc?id=YOUR_MOBILENET_FILE_ID)   |
-| 🧠 Vision Transformer (ViT) | [Download](https://drive.google.com/uc?id=YOUR_VIT_FILE_ID)   |
-| 🏗️ CNN from scratch | [Download](https://drive.google.com/uc?id=YOUR_SCRATCH_FILE_ID) |
+| 🧩 ResNet50 (Best, used in deployment) | [Download]([https://drive.google.com/uc?id=YOUR_RESNET_FILE_ID](https://drive.google.com/file/d/1Gvs0ZuMX1UQi6SPaNhekh_C7jJ505r9N/view?usp=drive_link))     |
+| 🔬 DenseNet121   | [Download]([https://drive.google.com/uc?id=YOUR_DENSENET_FILE_ID](https://drive.google.com/file/d/11gvBNuEDsG-TeW0suH0pz-0NH88xB1Y2/view?usp=drive_link))   |
+| 📱 MobileNet     | [Download]([https://drive.google.com/uc?id=YOUR_MOBILENET_FILE_ID](https://drive.google.com/file/d/1wFf8zw8qI1ocRv02lm9PvLzCraypjKI6/view?usp=drive_link))   |
+| 🧠 Vision Transformer (ViT) | [Download]([https://drive.google.com/uc?id=YOUR_VIT_FILE_ID](https://drive.google.com/file/d/1nT2zuvx6jvkcmujiFQ7-ZMrsB_QnCU2w/view?usp=drive_link))   |
+| 🏗️ CNN from scratch | [Download]([https://drive.google.com/uc?id=YOUR_SCRATCH_FILE_ID](https://drive.google.com/file/d/1drxz-YdfFybW_01ZyWFRubysislr3qKa/view?usp=drive_link)) |
 
 ---
 
+### Example (ResNet50 in `app.py`)
+```python
+import gdown, os
 
+model_file = "model.ResNet50.keras"
+
+if not os.path.exists(model_file):
+    url = "[https://drive.google.com/uc?id=YOUR_RESNET_FILE_ID](https://drive.google.com/uc?id=YOUR_RESNET_FILE_ID](https://drive.google.com/file/d/1Gvs0ZuMX1UQi6SPaNhekh_C7jJ505r9N/view?usp=drive_link)"
+    gdown.download(url, model_file, quiet=False)
+
+```
 
 ## 📊 Example Prediction
 
